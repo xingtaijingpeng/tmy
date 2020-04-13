@@ -8,7 +8,15 @@
       </div>
     </div>
     <div class="nav">
-        <div class="content"></div>
+        <ul class="content">
+			<li class="choose">首页</li>
+			<li>关于酣客</li>
+			<li>新闻资讯</li>
+			<li>酣客酱香</li>
+			<li>酣客公社</li>
+			<li>酣客文化</li>
+			<li>联系我们</li>
+		</ul>
     </div>
   </div>
 </template>
@@ -24,37 +32,54 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-  .logo{
-    height: 140px;
-    line-height: 140px;
-    border-bottom: 1px solid #ccc;
-  }
-  .logo img{
-      width: 150px;
-  }
-  .nav-right{
-    float: right;
-  }
-  .shoppingCart{
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      background: url("/static/shoppingCart.png") no-repeat;
-      background-size: 30px;
-  }
-  .search{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url("/static/search.png") no-repeat;
-    background-size: 30px;
-  }
+	
+.logo{
+	height: 140px;
+	line-height: 140px;
+	border-bottom: 1px solid #ccc;
+}
+.logo img{
+	width: 220px;
+}
+.nav-right{
+	float: right;
+}
+.shoppingCart{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url("/static/shoppingCart.png") no-repeat;
+	background-size: 30px;
+	margin-left: 30px;
+}
+.search{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url("/static/search.png") no-repeat;
+	background-size: 30px;
+}
 
-  .nav{
-    width: 100%;
-    height:70px;
-    background: #7d1d28;
-  }
-
-
+.nav{
+	width: 100%;
+	height:70px;
+	background: #7d1d28;
+}
+.nav ul{
+	overflow: hidden;
+}
+.nav ul li{
+	width:10%;
+	height:70px;
+	background: #7d1d28;
+	line-height: 70px;
+	text-align:center;
+	float:left;
+	color:#fff;
+}
+.nav ul li.choose{
+	background:#5e161e;
+}
+	
+	
 </style>

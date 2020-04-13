@@ -1,6 +1,23 @@
 
 /* 公共属性 */
+a{ text-decoration: none; display: block; color: #000;}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
 .content{
 	max-width:1200px;
 	margin: 0 auto;
 }
+.title{
+	font-size:30px;
+	color:#7d1d28;
+	text-align: center;
+	margin: 120px 0;
+}
+
+
+
+
