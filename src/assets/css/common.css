@@ -1,6 +1,13 @@
 
 /* 公共属性 */
 a{ text-decoration: none; display: block; color: #000;}
+a,a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color:inherit;
+}
+.m-t-90{
+	margin-top: 90px;
+}
 ul,li{
 	margin: 0;
 	padding: 0;
@@ -18,6 +25,25 @@ ul,li{
 	margin: 120px 0;
 }
 
-
+.common-h1{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	background: url("/static/title-line.jpg") bottom no-repeat;
+	background-size: 100% 5px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+.common-h2{
+	font-size: 26px;
+	font-weight: bold;
+	list-style: decimal;
+	padding-left: 20px;
+}
+.common-p p{
+	color:#242424;
+	margin-bottom: 50px;
+	font-size: 16px!important;
+}
 
 

@@ -76,6 +76,7 @@ export default {
 	text-align:center;
 	float:left;
 	color:#fff;
+    cursor: pointer;
 }
 .nav ul li.choose{
 	background:#5e161e;
