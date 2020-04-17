@@ -16,6 +16,16 @@ Vue.use(VueRouter)
       component: () => import('../views/Company.vue')
   },
   {
+      path: '/company2',
+      name: 'Company2',
+      component: () => import('../views/Company2.vue')
+  },
+  {
+      path: '/news',
+      name: 'News',
+      component: () => import('../views/News.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting

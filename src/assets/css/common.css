@@ -8,6 +8,9 @@ a,a:link,a:visited,a:hover,a:active{
 .m-t-90{
 	margin-top: 90px;
 }
+.f-l{
+    float: left;
+}
 ul,li{
 	margin: 0;
 	padding: 0;
@@ -33,17 +36,71 @@ ul,li{
 	background-size: 100% 5px;
 	padding-bottom: 10px;
 	margin-bottom: 50px;
-}
+ }
 .common-h2{
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: bold;
 	list-style: decimal;
 	padding-left: 20px;
+    color:#7d1d28;
+}
+.common-h2{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	background: url("/static/dian.png") left center no-repeat;
+	background-size: 10px;
+	margin-bottom: 50px;
 }
 .common-p p{
 	color:#242424;
 	margin-bottom: 50px;
 	font-size: 16px!important;
+    line-height: 30px;
 }
+/* 侧边导航 */
+
+.title-nav{
+    width:100%;
+}
+
+.title-nav li{
+    padding: 0 20px;
+    /* line-height: 88px; */
+    padding: 15px 0px 15px 60px; 
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.title-nav .choose{
+    background: #e5e5e5;
+    padding: 15px 0px 15px 60px;
+}
+.about-1{
+    background: url("/static/about-1.png") center ;
+    background-size:20px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.title-nav .choose .about-1{
+    background: url("/static/about-1-1.png");
+    background-size:20px;
+}
+.myIcon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
